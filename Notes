@@ -1,0 +1,45 @@
+Les 1
+Proxmox:
+172.27.1.34:8006  
+- admin 1;Azerty? 
+
+r0991739  s82IGDzX1!
+Windows AD DRSM:  Peru123
+Windows-AD-Blue
+Login: root
+Peru123
+
+
+ 
+
+1.	Ip veranderen van win 11 client
+2.	Vlan op elke netwerkkaart
+3.	
+
+
+
+
+
+
+
+Les 2 : Remote Management
+1.	We hebben gepinged tussen de WIN11 client en WIN-AD.
+2.	We hebben op de client  Enable-psremoting in powershell aangezet.
+3.	Op de AD client hebben we volgende commands gedaan
+- $session = New-PSSession -ComputerName localhost -ConfigurationName PowerShell.7
+4.	Dit creeert een session
+5.	Invoke-Command -Session $session -ScriptBlock { C:\>Get-CimInstance Win32_bios}
+
+
+
+
+Les 2: Remote tunnels
+-	Repository: Folder
+-	Clone: Copy
+-	Stage: Add,Commit
+-	Branch: different version
+-	Git init: maak map repository
+
+
+
+
